@@ -1,250 +1,154 @@
-# Awesome-Home-Automation-IOT
-# Awesome-Home-Automation-IOT
-
-## Top Home Automation & IoT Tools Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Smart Home Control, Local Automation & IoT Interoperability*  
-
-**Last updated: March 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Home Automation & IoT**. These tools connect, automate, and manage smart home devices, sensors, and appliances using local protocols (Zigbee, Z-Wave, MQTT, Matter) and cloud integrations, enabling users to build privacy-focused, vendor-agnostic smart home systems.
-
-
-
-**Examples** include openHAB, Home Assistant Cloud, SmartThings, Apple HomeKit, Google Home, Amazon Alexa, Hubitat Elevation, Control4, Tuya Smart, and Domoticz Cloud (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, local control, and open IoT data processing — ideal for smart home enthusiasts, developers, and privacy-conscious users building transparent, cloud-free automation solutions.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Home Assistant Cloud (Nabu Casa)](https://www.nabucasa.com/)**  
-
-  Optional paid cloud service for Home Assistant offering remote access, Alexa/Google voice integration, and secure webhooks without exposing your instance to the internet.
-
-
-
-- **[SmartThings (Samsung)](https://www.smartthings.com/)**  
-
-  Cloud-centric smart home hub and app ecosystem with broad device compatibility and Matter support, though local control is limited compared to open-source alternatives .
-
-
-
-- **[Apple HomeKit](https://www.apple.com/home/)**  
-
-  Apple's privacy-focused smart home framework with local processing, Secure Video, and deep integration across iPhone, iPad, Mac, and Apple TV.
-
-
-
-- **[Google Home](https://home.google.com/)**  
-
-  Google's smart home platform with Gemini AI integration, Nest device ecosystem, and Matter support for cross-platform device control.
-
-
-
-- **[Amazon Alexa](https://developer.amazon.com/en-US/alexa)**  
-
-  Voice-first smart home ecosystem with massive device compatibility, Alexa Routines, and Matter controller support across Echo devices.
-
-
-
-- **[Hubitat Elevation](https://hubitat.com/)**  
-
-  Local-first smart home hub with cloud optional, supporting Zigbee, Z-Wave, and Matter with rule-based automation engine.
-
-
-
-- **[Control4](https://www.control4.com/)**  
-
-  Professional custom-installation home automation platform for whole-home audio, video, lighting, and security integration.
-
-
-
-- **[Tuya Smart](https://www.tuya.com/)**  
-
-  Global IoT platform powering millions of white-label smart devices, with cloud APIs and app ecosystem for device manufacturers.
-
-
-
-- **[Domoticz Cloud](https://www.domoticz.com/)**  
-
-  Optional cloud connectivity for Domoticz users, though the core platform is designed for local self-hosting.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Home Assistant](https://github.com/home-assistant/core)**  
-
-  The leading open-source home automation platform with 1,600+ official integrations, local control, visual automation editor, and massive community. Ranked 1st in academic comparison for features and UX .
-
-
-
-- **[openHAB](https://github.com/openhab/openhab-core)**  
-
-  Vendor-neutral, model-based home automation platform with Things/Channels/Items architecture, 400+ bindings, and choice of rule engines. Ranked 2nd in academic comparison .
-
-
-
-- **[ioBroker](https://github.com/ioBroker/ioBroker)**  
-
-  JavaScript-based IoT integration platform with adapter concept, Redis-backed state database, and focus on building automation, smart metering, and visualization. "Automate your life!" .
-
-
-
-- **[Domoticz](https://github.com/domoticz/domoticz)**  
-
-  Lightweight C++ home automation system with exceptional resource efficiency (runs on 64MB RAM), excellent legacy protocol support (433MHz RF, 1-Wire), and Blockly/Lua/dzVents automation .
-
-
-
-- **[ESPHome](https://github.com/esphome/esphome)**  
-
-  YAML-based firmware framework for ESP8266/ESP32 devices, enabling custom smart home sensors and actuators with native Home Assistant integration .
-
-
-
-- **[Tasmota](https://github.com/arendst/Tasmota)**  
-
-  Alternative firmware for ESP-based devices (Sonoff, Tuya, etc.) providing local MQTT control without cloud dependency, with 11,000+ GitHub stars .
-
-
-
-- **[Zigbee2MQTT](https://github.com/Koenkk/zigbee2mqtt)**  
-
-  Zigbee-to-MQTT bridge eliminating proprietary hubs, supporting 3,000+ devices and enabling local control via MQTT .
-
-
-
-- **[Z-Wave JS](https://github.com/zwave-js/node-zwave-js)**  
-
-  Modern Z-Wave driver for Node.js, powering Home Assistant's Z-Wave integration and enabling local mesh network control .
-
-
-
-- **[Node-RED](https://github.com/node-red/node-red)**  
-
-  Flow-based visual programming tool for wiring together IoT devices, APIs, and services — widely used for custom home automation logic .
-
-
-
-- **[Eclipse Mosquitto](https://github.com/eclipse/mosquitto)**  
-
-  Lightweight MQTT broker for IoT messaging, forming the backbone of many local smart home architectures .
-
-
-
-- **[OpenMQTTGateway](https://github.com/1technophile/OpenMQTTGateway)**  
-
-  Multi-protocol gateway bridging BLE, RF, IR, and other signals to MQTT for unified smart home integration .
-
-
-
-- **[Scrypted](https://github.com/koush/scrypted)**  
-
-  High-performance home video integration platform bringing cameras and doorbells into HomeKit, Google Home, and Alexa with local processing .
-
-
-
-- **[evcc](https://github.com/evcc-io/evcc)**  
-
-  Open-source EV charging controller with solar surplus optimization and smart home integration .
-
-
-
-- **[WLED](https://github.com/Aircoookie/WLED)**  
-
-  ESP-based LED strip controller with MQTT, E1.31, and Home Assistant integration for addressable lighting .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Gladys Assistant](https://github.com/GladysAssistant/Gladys)** — Privacy-focused home automation platform with simple setup.
-
-- **[Jeedom](https://github.com/jeedom/core)** — French open-source home automation with plugin ecosystem.
-
-- **[AppDaemon](https://github.com/AppDaemon/appdaemon)** — Python automation sandbox for Home Assistant.
-
-- **[deCONZ REST Plugin](https://github.com/dresden-elektronik/deconz-rest-plugin)** — Zigbee gateway integration for ConBee/RaspBee sticks.
-
-- **[OctoPrint](https://github.com/OctoPrint/OctoPrint)** — Snappy web interface for 3D printers, often integrated into smart home dashboards.
-
-- **[InfluxDB](https://github.com/influxdata/influxdb)** + **[Grafana](https://github.com/grafana/grafana)** — Time-series database and visualization for long-term sensor data analysis.
-
-
-
-**Frameworks for building custom systems**: Combine **Home Assistant**, **Zigbee2MQTT**, **ESPHome**, **Node-RED**, and **InfluxDB + Grafana** with **Ollama** for intelligent local smart home platforms. For ultra-lightweight deployments, **Domoticz** with **Mosquitto** and **Tasmota** devices delivers excellent performance on minimal hardware .
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Home automation tools must comply with local electrical codes, radio regulations, and privacy laws (GDPR, CCPA).
-
-- Self-hosted open-source solutions require proper network security (HTTPS, VPN, VLANs) and should not be exposed directly to the internet .
-
-- Always verify device compatibility with your chosen platform before purchase, as protocol support varies by exact model and firmware.
-
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Home Automation and IoT Banner" width="100%">
+</p>
+
+# 🏡 Awesome Home Automation & IoT Ecosystem 🌐
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Home-Automation-IOT/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Home-Automation-IOT?style=social" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Home-Automation-IOT/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Home-Automation-IOT?style=social" alt="GitHub forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Home-Automation-IOT/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+> 🚀 **Curated directory of premier SaaS platforms, self-hosted open-source software, custom micro-controller firmware, and local communication protocols powering modern smart homes and Internet of Things (IoT) ecosystems.**
 
+---
 
-**Made for smart home enthusiasts, IoT developers, privacy advocates, and automation engineers.**  
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Smart Home Platforms](#️-saas--hosted-smart-home-platforms)
+- [🔓 Open-Source GitHub Projects & Stacks](#-open-source-github-projects--stacks)
+  - [🏆 Top Open-Source Projects (by Stars)](#-top-open-source-projects-by-stars)
+  - [🧩 Recommended Architecture Stacks](#-recommended-architecture-stacks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
-Let's make home automation more open, local, and interoperable.
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global Smart Home & IoT market is projected to expand from **$120+ billion in 2024 to over $330 billion by 2030**, clocking a compound annual growth rate (CAGR) of approximately **18.5%** driven by ubiquitous edge computing, energy efficiency demands, and AI-assisted automation. 
+
+The industry exhibits a **moderately fragmented ecosystem transitioning toward standards-based consolidation**: Big Tech hyperscalers (Apple, Google, Amazon, Samsung) dominate consumer voice interfaces and cloud backbones, while specialized IoT platforms, custom installer ecosystems (Control4, Crestron), and a robust **local-first open-source community** (led by Home Assistant, ESPHome, and Zigbee2MQTT via Matter/Thread) maintain significant influence and user retention due to heightened consumer privacy demands and vendor lock-in avoidance.
+
+---
+
+## ☁️ SaaS & Hosted Smart Home Platforms
+
+Below is a comparison of major commercial and hosted smart home platforms, sorted in descending order by parent company enterprise valuation / annual market size.
+
+| Platform / Vendor | Company Scale (Valuation / Revenue) | Starting Paid Tier Pricing | Free Tier / Trial Limit | Key Features & Architecture |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Apple HomeKit](https://www.apple.com/home/)** | **~$3.4 Trillion** (Market Cap) | **$0.99/mo** (iCloud+ 50GB plan for 1 HomeKit Secure Video camera stream) | **Free Forever** for standard device pairing, scenes, and local automations (requires Apple Hub device; no video recording history) | Privacy-centric smart home framework, end-to-end encrypted video, Matter controller, local execution across iOS/macOS. |
+| **[Google Home](https://home.google.com/)** | **~$2.1 Trillion** (Alphabet Market Cap) | **$8.00/mo** or $80/yr (Nest Aware basic plan for 30-day event video history) | **Free Forever** for core device pairing, routines, voice assistant controls, and live camera streaming (without event clip history) | Gemini AI integration, Google Nest ecosystem, multi-protocol Matter/Thread controller, cross-platform Android/iOS UI. |
+| **[Amazon Alexa](https://developer.amazon.com/en-US/alexa)** | **~$1.9 Trillion** (Market Cap) | **$4.99/mo** or $49.99/yr (Ring Protect Basic / Blink Plus plan for single camera cloud history) | **Free Forever** for voice automation, routine engine, Matter hub pairing, and skill invocation across Echo hardware | Voice-first smart home ecosystem, broad third-party appliance compatibility, Alexa Routines, and Matter controller. |
+| **[SmartThings](https://www.smartthings.com/)** | **~$380 Billion** (Samsung Market Cap) | **Hardware-bound** (Requires SmartThings Hub / Samsung Smart TV / Appliance from $35-$120) | **Free Forever** cloud and local hub access with unlimited connected devices, rules, and mobile app usage | Multi-protocol hub (Zigbee, Z-Wave, Thread, Matter), cloud rules engine with expanding local Edge Driver execution. |
+| **[Tuya Smart](https://www.tuya.com/)** | **~$1.1 Billion** (Market Cap / NYSE: TUYA) | **$25.00/mo** (Tuya IoT Core API Basic Cloud Developer subscription tier) | **Free Trial for 1 month** with 50 trial device licenses and 1,000,000 monthly API call quota | World's largest IoT cloud PaaS, powering tens of thousands of white-label hardware OEMs with unified Tuya Smart Life APIs. |
+| **[Control4](https://www.control4.com/)** | **~$800 Million** (Snap One / Resideo Technologies Segment) | **$120.00/yr** (Control4 4Sight remote access, voice integration, and cloud backup subscription) | **90-Day Free Trial** of 4Sight cloud features included with professional hardware installation | Enterprise luxury custom-install home automation, multi-room audio/video distribution, lighting panels, and surveillance. |
+| **[Hubitat Elevation](https://hubitat.com/)** | **~$15 Million** (Estimated Revenue / Privately Held) | **$3.99/mo** or $39.99/yr (Hubitat Remote Admin cloud service) | **Free Forever** complete local automation execution on the Hubitat Elevation Hub hardware (no cloud subscription needed) | Local-first Zigbee, Z-Wave, LAN, and Matter hub with Rule Machine engine; operates 100% offline without cloud connectivity. |
+| **[Home Assistant Cloud (Nabu Casa)](https://www.nabucasa.com/)** | **~$10 Million** (Estimated ARR / Nabu Casa Inc.) | **$6.50/mo** or $65.00/yr (Nabu Casa Subscription) | **31-Day Free Trial** with full features (remote access, secure Alexa & Google Assistant voice linking, webhook relays) | Direct zero-config remote access and end-to-end encrypted voice proxying for self-hosted Home Assistant instances. |
+| **[Domoticz Cloud](https://www.domoticz.com/)** | **~$1 Million** (Community Supported Open-Core) | **$2.50/mo** (approx. €2.00/mo for community web proxy and push service) | **Free Forever** self-hosted local instance with full web UI and MQTT capabilities without mandatory subscriptions | Extremely lightweight community automation dashboard and cloud-relay for embedded systems and legacy IoT protocols. |
+
+---
+
+## 🔓 Open-Source GitHub Projects & Stacks
+
+### 🏆 Top Open-Source Projects (by Stars)
+
+The table below lists the premier open-source smart home engines, firmwares, gateways, and observability tools, sorted by GitHub star count:
+
+| Project | GitHub Stars Badge | Primary Purpose | Tech Stack |
+| :--- | :--- | :--- | :--- |
+| **[Home Assistant](https://github.com/home-assistant/core)** | [![Stars](https://img.shields.io/github/stars/home-assistant/core?style=social&color=white)](https://github.com/home-assistant/core/stargazers) | The gold standard open-source local-first home automation hub with 2,500+ integrations. | Python, Asyncio, WebSockets |
+| **[Grafana](https://github.com/grafana/grafana)** | [![Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers) | The leading observability platform for visualizing IoT sensor telemetry, power usage, and trends. | TypeScript, Go, React |
+| **[Frigate NVR](https://github.com/blakeblackshear/frigate)** | [![Stars](https://img.shields.io/github/stars/blakeblackshear/frigate?style=social&color=white)](https://github.com/blakeblackshear/frigate/stargazers) | Real-time local NVR designed for Home Assistant with Google Coral AI hardware object detection. | Python, OpenCV, MQTT |
+| **[InfluxDB](https://github.com/influxdata/influxdb)** | [![Stars](https://img.shields.io/github/stars/influxdata/influxdb?style=social&color=white)](https://github.com/influxdata/influxdb/stargazers) | Scalable time-series database optimized for smart home temperature, humidity, and energy metrics. | Go, Rust |
+| **[Tasmota](https://github.com/arendst/Tasmota)** | [![Stars](https://img.shields.io/github/stars/arendst/Tasmota?style=social&color=white)](https://github.com/arendst/Tasmota/stargazers) | Alternative open-source firmware for ESP8266/ESP32 devices providing full local MQTT and HTTP control. | C++, ESP-IDF, MQTT |
+| **[Node-RED](https://github.com/node-red/node-red)** | [![Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers) | Low-code flow-based visual programming environment for event-driven IoT automation and API wiring. | JavaScript, Node.js |
+| **[WLED](https://github.com/Aircoookie/WLED)** | [![Stars](https://img.shields.io/github/stars/Aircoookie/WLED?style=social&color=white)](https://github.com/Aircoookie/WLED/stargazers) | Fast and feature-rich ESP32/ESP8266 controller for addressable NeoPixel/WS2812B LED light installations. | C++, PlatformIO, E1.31 |
+| **[Zigbee2MQTT](https://github.com/Koenkk/zigbee2mqtt)** | [![Stars](https://img.shields.io/github/stars/Koenkk/zigbee2mqtt?style=social&color=white)](https://github.com/Koenkk/zigbee2mqtt/stargazers) | Hub-free bridge connecting Zigbee devices from 400+ brands directly into any MQTT broker. | TypeScript, Node.js |
+| **[go2rtc](https://github.com/AlexxIT/go2rtc)** | [![Stars](https://img.shields.io/github/stars/AlexxIT/go2rtc?style=social&color=white)](https://github.com/AlexxIT/go2rtc/stargazers) | Zero-latency RTSP/WebRTC/HLS camera streaming server engineered specifically for smart home dashboards. | Go, WebRTC |
+| **[ESPHome](https://github.com/esphome/esphome)** | [![Stars](https://img.shields.io/github/stars/esphome/esphome?style=social&color=white)](https://github.com/esphome/esphome/stargazers) | Declarative YAML-based firmware framework creating plug-and-play custom smart sensors and relays. | C++, Python, ESP-IDF |
+| **[Eclipse Mosquitto](https://github.com/eclipse/mosquitto)** | [![Stars](https://img.shields.io/github/stars/eclipse/mosquitto?style=social&color=white)](https://github.com/eclipse/mosquitto/stargazers) | Ultra-lightweight MQTT v5.0/v3.1.1 message broker serving as the communications backplane of IoT networks. | C |
+| **[OctoPrint](https://github.com/OctoPrint/OctoPrint)** | [![Stars](https://img.shields.io/github/stars/OctoPrint/OctoPrint?style=social&color=white)](https://github.com/OctoPrint/OctoPrint/stargazers) | The standard web interface and print monitoring platform for 3D printers with smart home plugins. | Python, Flask, Knockout.js |
+| **[evcc](https://github.com/evcc-io/evcc)** | [![Stars](https://img.shields.io/github/stars/evcc-io/evcc?style=social&color=white)](https://github.com/evcc-io/evcc/stargazers) | Smart Electric Vehicle charging controller optimizing clean solar surplus energy and dynamic tariffs. | Go, Vue.js |
+| **[Scrypted](https://github.com/koush/scrypted)** | [![Stars](https://img.shields.io/github/stars/koush/scrypted?style=social&color=white)](https://github.com/koush/scrypted/stargazers) | High-performance home video integration engine bringing local camera streams into HomeKit Secure Video. | TypeScript, WebAssembly |
+| **[OpenMQTTGateway](https://github.com/1technophile/OpenMQTTGateway)** | [![Stars](https://img.shields.io/github/stars/1technophile/OpenMQTTGateway?style=social&color=white)](https://github.com/1technophile/OpenMQTTGateway/stargazers) | Universal gateway bridging BLE beacons, 433MHz/315MHz RF, IR transmitters, and LoRa directly to MQTT. | C++, PlatformIO |
+| **[Domoticz](https://github.com/domoticz/domoticz)** | [![Stars](https://img.shields.io/github/stars/domoticz/domoticz?style=social&color=white)](https://github.com/domoticz/domoticz/stargazers) | Ultra-lightweight C++ home automation server designed to run efficiently even on 64MB RAM devices. | C++, HTML5, Lua |
+| **[Gladys Assistant](https://github.com/GladysAssistant/Gladys)** | [![Stars](https://img.shields.io/github/stars/GladysAssistant/Gladys?style=social&color=white)](https://github.com/GladysAssistant/Gladys/stargazers) | Modern, privacy-first smart home assistant with an intuitive dashboard and built-in Zigbee management. | Node.js, Preact, Docker |
+| **[Music Assistant](https://github.com/music-assistant/server)** | [![Stars](https://img.shields.io/github/stars/music-assistant/server?style=social&color=white)](https://github.com/music-assistant/server/stargazers) | Multi-room, vendor-agnostic music streamer uniting Sonos, AirPlay, Chromecast, and local audio libraries. | Python, Asyncio |
+| **[deCONZ REST Plugin](https://github.com/dresden-elektronik/deconz-rest-plugin)** | [![Stars](https://img.shields.io/github/stars/dresden-elektronik/deconz-rest-plugin?style=social&color=white)](https://github.com/dresden-elektronik/deconz-rest-plugin/stargazers) | Hardware driver and REST interface for Dresden Elektronik ConBee and RaspBee Zigbee coordinators. | C++, Qt |
+| **[ioBroker](https://github.com/ioBroker/ioBroker)** | [![Stars](https://img.shields.io/github/stars/ioBroker/ioBroker?style=social&color=white)](https://github.com/ioBroker/ioBroker/stargazers) | Modular, adapter-driven IoT integration platform with deep European smart meter and KNX support. | JavaScript, Redis, Node.js |
+| **[openHAB](https://github.com/openhab/openhab-core)** | [![Stars](https://img.shields.io/github/stars/openhab/openhab-core?style=social&color=white)](https://github.com/openhab/openhab-core/stargazers) | Enterprise-grade, vendor-neutral smart home system with OSGi modular architecture and rule engine. | Java, OSGi |
+| **[zigpy](https://github.com/zigpy/zigpy)** | [![Stars](https://img.shields.io/github/stars/zigpy/zigpy?style=social&color=white)](https://github.com/zigpy/zigpy/stargazers) | Python library implementing pure Zigbee protocol stack powering Home Assistant's ZHA integration. | Python, Asyncio |
+| **[AppDaemon](https://github.com/AppDaemon/appdaemon)** | [![Stars](https://img.shields.io/github/stars/AppDaemon/appdaemon?style=social&color=white)](https://github.com/AppDaemon/appdaemon/stargazers) | Python execution environment enabling complex, multithreaded, programmatic automations for Home Assistant. | Python |
+| **[Z-Wave JS](https://github.com/zwave-js/zwave-js)** | [![Stars](https://img.shields.io/github/stars/zwave-js/zwave-js?style=social&color=white)](https://github.com/zwave-js/zwave-js/stargazers) | High-performance, standards-compliant Z-Wave device driver and controller powering the global ecosystem. | TypeScript, Node.js |
+| **[Jeedom](https://github.com/jeedom/core)** | [![Stars](https://img.shields.io/github/stars/jeedom/core?style=social&color=white)](https://github.com/jeedom/core/stargazers) | Modular French home automation server with extensive multi-protocol marketplace plugins. | PHP, JavaScript, MySQL |
+
+---
+
+### 🧩 Recommended Architecture Stacks
+
+For builders creating resilient, private, cloud-free smart homes:
+
+- 🏠 **The Gold Standard Local Stack**:
+  - **Hub**: [Home Assistant](https://github.com/home-assistant/core) on an x86 Mini PC or Raspberry Pi 5
+  - **Wireless Gateways**: [Zigbee2MQTT](https://github.com/Koenkk/zigbee2mqtt) with a Sonoff / SLZB Zigbee 3.0 coordinator + [Z-Wave JS](https://github.com/zwave-js/zwave-js)
+  - **Custom Sensors / Relays**: [ESPHome](https://github.com/esphome/esphome) on ESP32 microcontrollers
+  - **Communications Backbone**: [Eclipse Mosquitto](https://github.com/eclipse/mosquitto) MQTT Broker
+  - **Video Streaming & AI Detection**: [Frigate NVR](https://github.com/blakeblackshear/frigate) with Google Coral accelerator + [go2rtc](https://github.com/AlexxIT/go2rtc)
+  - **Observability**: [InfluxDB](https://github.com/influxdata/influxdb) + [Grafana](https://github.com/grafana/grafana) for long-term historical environmental telemetry
+
+- ⚡ **Ultra-Low Footprint Stack**:
+  - **Server**: [Domoticz](https://github.com/domoticz/domoticz) running on 64MB RAM single-board computer
+  - **Firmware**: [Tasmota](https://github.com/arendst/Tasmota) on ESP8266 smart plugs
+  - **Broker**: [Eclipse Mosquitto](https://github.com/eclipse/mosquitto)
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help expand this comprehensive directory:
+
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a feature branch** (`git checkout -b feature/new-iot-platform`).
+3. 📝 **Add/edit entries** in `README.md` keeping formatting clean, alphabetical, or sorted by star count/market cap.
+4. 🔗 Include official homepage, GitHub repository link, clear licensing, and concise factual descriptions.
+5. 🚀 **Submit a Pull Request** with a brief summary of the addition.
+
+---
+
+## 💖 Support
+
+If this repository assisted you in architecting, automating, or freeing your smart home from cloud lock-in, please consider showing your support:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork and share** with your local IoT and maker communities.
+- ☕ **Buy a coffee or sponsor ongoing maintenance**: [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Home-Automation-IOT&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Home-Automation-IOT&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a community-curated educational resource and does not constitute formal endorsement.
+- Electrical home automation devices must strictly comply with local electrical safety regulations (NEC, CE, UL) and RF radio standards (FCC, ETSI).
+- Ensure network segregation (IoT VLANs, firewall rules, VPN tunnels) when deploying self-hosted infrastructure. Avoid exposing raw management interfaces directly to the public internet.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for smart home enthusiasts, IoT engineers, and privacy advocates.</b>
+</p>
