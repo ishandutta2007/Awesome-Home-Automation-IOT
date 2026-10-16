@@ -62,7 +62,7 @@ Below is a comparison of major commercial and hosted smart home platforms, sorte
 
 ### 🏆 Top Open-Source Projects (by Stars)
 
-The table below lists the premier open-source smart home engines, firmwares, gateways, and observability tools, sorted by GitHub Stars_Count:
+The table below lists the premier open-source smart home engines, firmwares, gateways, and observability tools, sorted by GitHub_Stars_Count:
 
 | Project | GitHub_Stars_Badge | Primary Purpose | Tech Stack |
 | :--- | :--- | :--- | :--- |
