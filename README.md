@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Home-Automation-IOT/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Home-Automation-IOT?style=social" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Home-Automation-IOT/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Home-Automation-IOT?style=social" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Home-Automation-IOT/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Home-Automation-IOT?style=social" alt="GitHub forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Home-Automation-IOT/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -62,9 +62,9 @@ Below is a comparison of major commercial and hosted smart home platforms, sorte
 
 ### 🏆 Top Open-Source Projects (by Stars)
 
-The table below lists the premier open-source smart home engines, firmwares, gateways, and observability tools, sorted by GitHub star count:
+The table below lists the premier open-source smart home engines, firmwares, gateways, and observability tools, sorted by GitHub Stars_Count:
 
-| Project | GitHub Stars Badge | Primary Purpose | Tech Stack |
+| Project | GitHub_Stars_Badge | Primary Purpose | Tech Stack |
 | :--- | :--- | :--- | :--- |
 | **[Home Assistant](https://github.com/home-assistant/core)** | [![Stars](https://img.shields.io/github/stars/home-assistant/core?style=social&color=white)](https://github.com/home-assistant/core/stargazers) | The gold standard open-source local-first home automation hub with 2,500+ integrations. | Python, Asyncio, WebSockets |
 | **[Grafana](https://github.com/grafana/grafana)** | [![Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers) | The leading observability platform for visualizing IoT sensor telemetry, power usage, and trends. | TypeScript, Go, React |
@@ -119,7 +119,7 @@ Contributions are warmly welcomed! Help expand this comprehensive directory:
 
 1. 🍴 **Fork the repository** on GitHub.
 2. 🌿 **Create a feature branch** (`git checkout -b feature/new-iot-platform`).
-3. 📝 **Add/edit entries** in `README.md` keeping formatting clean, alphabetical, or sorted by star count/market cap.
+3. 📝 **Add/edit entries** in `README.md` keeping formatting clean, alphabetical, or sorted by Stars_Count/market cap.
 4. 🔗 Include official homepage, GitHub repository link, clear licensing, and concise factual descriptions.
 5. 🚀 **Submit a Pull Request** with a brief summary of the addition.
 
